@@ -1,0 +1,170 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*Navbar Start*/
+header{
+    background-color: #F0FFF0;
+}
+
+nav{
+    background-color:  #F0FFF0;
+}
+.nav-button{
+    width: 104px;
+    height: 43px;
+    background: #21B573;
+    border-radius: 33px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.nav-button:focus {
+    outline: none;
+}
+nav ul li a {
+    color : #000000; 
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/*Bannner Start*/
+.banner{
+    padding-top: 100px;
+    height: 576px;
+    background-color: #F0FFF0;
+}
+.banner h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+}
+.banner h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+}
+.banner h2 span{
+    color: #21B573;
+}
+.get-button{
+    width: 140px;
+    height: 43px;
+    background: #21B573;
+    border-radius: 33px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.get-button:focus {
+    outline: none;
+}
+
+/*About section Start*/
+.about{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.div1, .div2,  .div3,  .div4{
+    height: 270px;
+    background: #F8FFFB;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+/*Courses Section Start*/
+.courses{
+    margin-top:  100px;
+    margin-bottom: 100px;
+}
+.courses h3{
+    font-weight: bold;
+
+}
+.card{
+    border-radius: 15px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+/* testimonial Section Start*/
+.testimonial{
+        margin-top: 100px;
+        height: 300px;
+}
+.testimonial h3{
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.content{
+    width: 65%;
+}
+
+
+
+/*Progress Bar Section*/
+.contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.contact h3{
+    font-weight: bold;
+}
+.contact label {
+    color : black ;
+    font-weight: 900;
+    
+}
+input[placeholder]{
+    color : black ;
+    font-weight: 900;
+}
+.contact hr{
+    width: 25%;
+    border: 1px solid gray;
+}
+/*Footer start*/
+footer{
+    padding-top: 50px;
+    color : white;
+    margin : 40px 0px 0px 0px;
+    background-color: #282531;
+    
+}
+footer ul li{
+    list-style: none;
+    
+}
+footer ul li a {
+    color : white;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.copyright{
+    
+    background-color: #282531;
+    height: 100px;
+    text-align: center;
+    color : white;
+}
+
+.get-button:hover{
+    background-color: #F0FFF0;
+    color: #21B573;
+    font-weight: 900;
+    border: 2px solid #21B573;
+}
+.nav-button:hover{ 
+    background-color: #F0FFF0;
+    color: #21B573;
+    font-weight: 900;
+    border: 2px solid #21B573;
+
+}
